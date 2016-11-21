@@ -1,28 +1,25 @@
-# BoHu 
+## My Stack Problems
 
-It's a simple jekyll blog theme. 
-  
-A style of ZhiHu - the best-known website to share knowledge in China.   
+> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll), and the search posts using [Super Search](https://github.com/chinchang/super-search)
 
-In the ZhiHu, you can learn knowledge from all over the world.   
+### Demo
+* [https://agusmakmun.github.io](https://agusmakmun.github.io)
 
-In the BoHu, you can share knowledge to all over the world!
+#### Feature
 
-1. **Use paging as 1,2,3,4,5......**   
-1. **Searchable for blog.**    
-1. **Classification is supported.**   
-1. **Good compatibility on mobile devices.**    
-1. **Built-in wordart for English and Chinese.**   
-1. **Music player.**   
-**......**
+* Sitemap and XML Feed
+* Paginations in homepage
+* Posts under category
+* Realtime Search Posts _(title & description)_ under query.
+* Related Posts
+* Highlight pre
+* Next & Previous Post
+* Disqus comment
+* Projects
+* Project page
+* Share on social media
+* Google analytics
 
-**Make it yours in under 10 minutes.**  
+#### Screenshot
 
-# Author
-
-[Clark Zhao](http://zhaoyuxiang.cn)
-
-
-# License
-
-Use MIT License.
+![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
