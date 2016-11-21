@@ -1,3 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BoHu|Clark's Blog</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/bohu-jekyll-theme/assets/favicon.jpg"> 
+  <meta name="description" content="。">
+  <link rel="stylesheet" type="text/css" href="/bohu-jekyll-theme/css/main.css">
+  <link rel="stylesheet" type="text/css" href="/bohu-jekyll-theme/css/font-awesome-4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/bohu-jekyll-theme/css/bootstrap.min.css">
+  <script type="text/javascript" src="/bohu-jekyll-theme/js/jquery-2.2.3.min.js"></script>
+  <script type="text/javascript" src="http://youzikuwebfont.oss-cn-beijing.aliyuncs.com/api.lib.min.js"></script>
+</head>
+<body>
+  <header id="header">
+    <div class="headerWrap clearfix">
+      <a class="myFont title css2dcc4b9955748" href="/bohu-jekyll-theme/home">BoHu</a>
+
+      <nav>
+        <ul>
+          <li><a href="/bohu-jekyll-theme/home" class="myFont css2dcc4b9955748">Home</a></li>
+          <li><a href="/bohu-jekyll-theme/index" class="myFont css2dcc4b9955748">Blog</a></li>
+          <li><a href="/bohu-jekyll-theme/about" class="myFont css2dcc4b9955748">About</a></li>
+        </ul>
+      </nav>
+
+<div class="search-tool" style="float: left;height: 45px;line-height: 45px;margin-left: 12px;">
+    <input type="text" class="form-control search-content" id="search-content" style="display: inline-block !important; 
+    color: #49525c;
+    font-size: 14px;
+    line-height: 17px;
+    background-color: #e1eaf2;
+    border: 1px solid #045bb2;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.2),0 1px 0 rgba(255,255,255,.1);
+    outline: 0;
+    box-sizing: border-box;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;" placeholder="Search for what you are interested in...." />
+</div>
+
+<link rel="stylesheet" href="/bohu-jekyll-theme/search/css/cb-search.css">
+
+<script src="/bohu-jekyll-theme/search/js/bootstrap3-typeahead.min.js"></script>
+<script src="/bohu-jekyll-theme/search/js/cb-search.js"></script>
+
+      <a href="http://zhaoyuxiang.cn/cv" class="master">
+        <div class="avatarWrap">
+          <img src="/bohu-jekyll-theme/assets/avatar.jpg" alt="Clark" style="max-width: 27px;" />
+        </div><span class="myFont css2dcc4b9955748">Clark</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="clearfix">
+    <div class="content">
+      <div class="content-inner">
 ---
 layout: default
 ---
@@ -48,3 +106,68 @@ layout: default
 	</div>
 	{% endif %}
 </div>
+<div class="sidebar">
+  <img class="avatar" src="/bohu-jekyll-theme/assets/avatar.jpg" alt="Clark">
+  <div class="col-box-title name myFont css2dcc4b9955748">Clark</div>
+  <p class="myFont css2dcc4b9955748">Time is money.</p>
+  <p class="contact">
+    
+    <a href="https://github.com/Clark-Zhao" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+    
+    
+    <a href="https://weibo.com/zhaoyuxiang" target="_blank"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+    
+    
+    <a href="https://twitter.com/zyx19936688" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    
+    
+    <a href="mailto:me@zhaoyuxiang.cn"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    
+  </p>
+
+  <div class="col-box-title myFont css2dcc4b9955748">Recent Articles</div>
+  <ul class="post-list">
+    <li>Theme By <a href="http://zhaoyuxiang.cn">Clark Zhao</a></li>
+    
+      <li><a class="post-link" href="/bohu-jekyll-theme/archivers/Whats-Jekyll" target="_blank">Whats Jekyll?</a></li>
+    
+      <li><a class="post-link" href="/bohu-jekyll-theme/archivers/Whats-Bohu" target="_blank">Whats BoHu?</a></li>
+    
+      <li><a class="post-link" href="/bohu-jekyll-theme/archivers/Example-content" target="_blank">Example content</a></li>
+    
+  </ul>
+</div>
+	</main>
+	<footer>
+		<div class="footer-inner">
+			<span class="myFont">Copyright &copy; 2016 <a href="http://zhaoyuxiang.cn">Clark</a></span>
+			<ul>
+				<li><a href="/bohu-jekyll-theme/home" class="myFont css2dcc4b9955748">Home</a></li>
+				<li><a href="/bohu-jekyll-theme/index" class="myFont css2dcc4b9955748">Blog</a></li>
+				<li><a href="/bohu-jekyll-theme/about" class="myFont css2dcc4b9955748">About</a></li>
+				<li><a href="javascript:scroll(0,0)" class="myFont css2dcc4b9955748">Top</a></li>
+			</ul>
+		</div>
+	</footer>
+	<!--返回顶部按钮-->
+	<div class="go-top">
+        <div class="arrow"></div>
+        <div class="stick"></div>
+    </div>
+<script type="text/javascript"> /*$youzikuapi.asyncLoad("http://api.youziku.com/webfont/FastJS/yzk_80359A045057B6A0", function () { $youziku.load(".myFont", "6dee8aeae5404ac7b4184b79262d4e1a", "NaiYou");$youziku.draw(); }) Chinese font-family*/
+$(function() {
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 1000)
+            $('div.go-top').show();
+        else
+            $('div.go-top').hide();
+    });
+    $('div.go-top').click(function() {
+        $('html, body').animate({scrollTop: 0}, 200);
+    });
+});
+</script>
+<!--English font-family
+<script type="text/javascript" src="http://api.youziku.com/wwwroot/js/g_webfont.min.js"></script> <script type="text/javascript"> WebFont.load({ custom: { urls: ['http://api.youziku.com/webfont/CSS/571879b6f629d80ed8fbe7d2'] } }); </script>-->
+</body>
+</html>
