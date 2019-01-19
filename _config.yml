@@ -103,7 +103,8 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "panossakkos"
+# Disqus settings（https://disqus.com/）
+disqus-shortname: "xin1944"
 
 syntax-highlight: True
 
