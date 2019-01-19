@@ -137,8 +137,8 @@ email: "guangxin1944@163.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "哈哈，先随便写点"
-author_blurb_image: "/img/author.png"
+#author_blurb: "哈哈，先随便写点"
+#author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
@@ -148,11 +148,11 @@ social:
   - title: "facebook"
     url: "https://facebook.com/"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/xin1944"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/xin1944"
+  - title: "weibo"
+    url: "https://weibo.com/xin1944/home"
   - title: "rss"
     url: "/feed.xml"
 
